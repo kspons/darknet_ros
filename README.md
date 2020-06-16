@@ -28,7 +28,7 @@ or using the [Catkin Command Line Tools](http://catkin-tools.readthedocs.io/en/l
 
 Now we need to download weights into the right spot. Put the weights from the download link into darknet_ros/yolo_network_config/weights
 
-Weights https://drive.google.com/file/d/1AKNXAWAh1hDm6NetFmewAuR7XECjS-MN/view?usp=sharing
+[AGC Yolov3 Weights](https://drive.google.com/file/d/1AKNXAWAh1hDm6NetFmewAuR7XECjS-MN/view?usp=sharing)
 
 
 # YOLO ROS: Real-Time Object Detection for ROS
