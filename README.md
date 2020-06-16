@@ -1,3 +1,34 @@
+## Keith's Instructions for agc crew
+
+## Installation
+
+### Dependencies
+
+This software is built on the Robotic Operating System ([ROS]), which needs to be [installed](http://wiki.ros.org) first. Additionally, YOLO for ROS depends on following software:
+
+- [OpenCV](http://opencv.org/) (computer vision library),
+- [boost](http://www.boost.org/) (c++ library),
+
+### Building
+
+In order to install darknet_ros, clone the latest version using SSH (see [how to set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)) from this repository into your catkin workspace and compile the package using ROS.
+#### for some reason it is very important that you clone with ssh, not https
+    cd agc/
+    git clone --recursive git@github.com:kspons/darknet_ros.git
+    cd ../
+
+To maximize performance, make sure to build in *Release* mode. You can specify the build type by setting
+
+    catkin_make -DCMAKE_BUILD_TYPE=Release
+
+or using the [Catkin Command Line Tools](http://catkin-tools.readthedocs.io/en/latest/index.html#)
+
+    catkin build darknet_ros -DCMAKE_BUILD_TYPE=Release
+
+
+Now we need to download weights into the right spot
+
+
 # YOLO ROS: Real-Time Object Detection for ROS
 
 ## Overview
