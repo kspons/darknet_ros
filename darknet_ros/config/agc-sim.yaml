@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: agc-sim.cfg
+  weight_file:
+    name: agc-sim.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - GV
