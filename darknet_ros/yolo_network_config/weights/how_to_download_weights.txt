@@ -1,5 +1,8 @@
 cd catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
 
+AGC simulation weights (Yolo v3):
+  download from https://drive.google.com/file/d/1AKNXAWAh1hDm6NetFmewAuR7XECjS-MN/view?usp=sharing
+
 COCO data set (Yolo v2):
   wget http://pjreddie.com/media/files/yolov2.weights
   wget http://pjreddie.com/media/files/yolov2-tiny.weights
